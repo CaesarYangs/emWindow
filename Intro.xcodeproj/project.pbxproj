@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1F6CA225C3B05A00621985 /* bookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F6CA125C3B05A00621985 /* bookData.swift */; };
+		5B1F6CA725C3B74300621985 /* firstTap-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F6CA625C3B74300621985 /* firstTap-2.swift */; };
+		5B1F6CAC25C3C19A00621985 /* bookDDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F6CAB25C3C19A00621985 /* bookDDetail.swift */; };
+		5B1F6CB125C3E09C00621985 /* passageIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F6CB025C3E09C00621985 /* passageIcon.swift */; };
+		5B8203B625C2780600066778 /* firstTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8203B525C2780600066778 /* firstTap.swift */; };
+		5B8203BB25C2827700066778 /* settingpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8203BA25C2827700066778 /* settingpage.swift */; };
+		5B8203C025C288A100066778 /* ZXS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B8203BF25C288A100066778 /* ZXS.ttf */; };
+		5B8203C125C288A100066778 /* ZXS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B8203BF25C288A100066778 /* ZXS.ttf */; };
+		5B8203C225C288A100066778 /* ZXS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B8203BF25C288A100066778 /* ZXS.ttf */; };
+		5B8203C725C28A7800066778 /* HYShangWeiShouShuW.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B8203C625C28A7800066778 /* HYShangWeiShouShuW.ttf */; };
+		5B8203C825C28A7800066778 /* HYShangWeiShouShuW.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B8203C625C28A7800066778 /* HYShangWeiShouShuW.ttf */; };
+		5B8203C925C28A7800066778 /* HYShangWeiShouShuW.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B8203C625C28A7800066778 /* HYShangWeiShouShuW.ttf */; };
+		5B9FC91A25C2FCBC0098AAC8 /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FC91925C2FCBC0098AAC8 /* Vibration.swift */; };
 		5BE3544725BF081000C96C31 /* IntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3544625BF081000C96C31 /* IntroApp.swift */; };
 		5BE3544925BF081000C96C31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3544825BF081000C96C31 /* ContentView.swift */; };
 		5BE3544B25BF081100C96C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3544A25BF081100C96C31 /* Assets.xcassets */; };
 		5BE3544E25BF081100C96C31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3544D25BF081100C96C31 /* Preview Assets.xcassets */; };
 		5BE3545925BF081100C96C31 /* IntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3545825BF081100C96C31 /* IntroTests.swift */; };
 		5BE3546425BF081100C96C31 /* IntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3546325BF081100C96C31 /* IntroUITests.swift */; };
+		5BE3D96625C124C8003973AD /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D96525C124C8003973AD /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B1F6CA125C3B05A00621985 /* bookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookData.swift; sourceTree = "<group>"; };
+		5B1F6CA625C3B74300621985 /* firstTap-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "firstTap-2.swift"; sourceTree = "<group>"; };
+		5B1F6CAB25C3C19A00621985 /* bookDDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookDDetail.swift; sourceTree = "<group>"; };
+		5B1F6CB025C3E09C00621985 /* passageIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passageIcon.swift; sourceTree = "<group>"; };
+		5B8203B525C2780600066778 /* firstTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTap.swift; sourceTree = "<group>"; };
+		5B8203BA25C2827700066778 /* settingpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingpage.swift; sourceTree = "<group>"; };
+		5B8203BF25C288A100066778 /* ZXS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZXS.ttf; sourceTree = "<group>"; };
+		5B8203C625C28A7800066778 /* HYShangWeiShouShuW.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HYShangWeiShouShuW.ttf; sourceTree = "<group>"; };
+		5B8203D025C28B9300066778 /* Intro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Intro-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B8203D125C28B9300066778 /* IntroTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntroTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B8203D225C28B9300066778 /* IntroUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntroUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B9FC91925C2FCBC0098AAC8 /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
 		5BE3544325BF081000C96C31 /* Intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE3544625BF081000C96C31 /* IntroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroApp.swift; sourceTree = "<group>"; };
 		5BE3544825BF081000C96C31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +71,7 @@
 		5BE3545F25BF081100C96C31 /* IntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE3546325BF081100C96C31 /* IntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroUITests.swift; sourceTree = "<group>"; };
 		5BE3546525BF081100C96C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE3D96525C124C8003973AD /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +99,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B1F6CB525C3E53400621985 /* 主页菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3544825BF081000C96C31 /* ContentView.swift */,
+				5B8203B525C2780600066778 /* firstTap.swift */,
+				5B1F6CA625C3B74300621985 /* firstTap-2.swift */,
+				5B8203BA25C2827700066778 /* settingpage.swift */,
+			);
+			path = "主页菜单";
+			sourceTree = "<group>";
+		};
 		5BE3543A25BF081000C96C31 = {
 			isa = PBXGroup;
 			children = (
+				5BE3D96525C124C8003973AD /* SwiftUIView.swift */,
 				5BE3544525BF081000C96C31 /* Intro */,
 				5BE3545725BF081100C96C31 /* IntroTests */,
 				5BE3546225BF081100C96C31 /* IntroUITests */,
@@ -95,11 +134,20 @@
 		5BE3544525BF081000C96C31 /* Intro */ = {
 			isa = PBXGroup;
 			children = (
+				5B8203BF25C288A100066778 /* ZXS.ttf */,
+				5B8203C625C28A7800066778 /* HYShangWeiShouShuW.ttf */,
 				5BE3544625BF081000C96C31 /* IntroApp.swift */,
-				5BE3544825BF081000C96C31 /* ContentView.swift */,
+				5B1F6CB525C3E53400621985 /* 主页菜单 */,
+				5B1F6CB025C3E09C00621985 /* passageIcon.swift */,
+				5B1F6CAB25C3C19A00621985 /* bookDDetail.swift */,
+				5B1F6CA125C3B05A00621985 /* bookData.swift */,
+				5B9FC91925C2FCBC0098AAC8 /* Vibration.swift */,
 				5BE3544A25BF081100C96C31 /* Assets.xcassets */,
 				5BE3544F25BF081100C96C31 /* Info.plist */,
 				5BE3544C25BF081100C96C31 /* Preview Content */,
+				5B8203D025C28B9300066778 /* Intro-Bridging-Header.h */,
+				5B8203D125C28B9300066778 /* IntroTests-Bridging-Header.h */,
+				5B8203D225C28B9300066778 /* IntroUITests-Bridging-Header.h */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -197,13 +245,16 @@
 				TargetAttributes = {
 					5BE3544225BF081000C96C31 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					5BE3545325BF081100C96C31 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 						TestTargetID = 5BE3544225BF081000C96C31;
 					};
 					5BE3545E25BF081100C96C31 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 						TestTargetID = 5BE3544225BF081000C96C31;
 					};
 				};
@@ -233,8 +284,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8203C025C288A100066778 /* ZXS.ttf in Resources */,
 				5BE3544E25BF081100C96C31 /* Preview Assets.xcassets in Resources */,
 				5BE3544B25BF081100C96C31 /* Assets.xcassets in Resources */,
+				5B8203C725C28A7800066778 /* HYShangWeiShouShuW.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8203C125C288A100066778 /* ZXS.ttf in Resources */,
+				5B8203C825C28A7800066778 /* HYShangWeiShouShuW.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +304,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8203C225C288A100066778 /* ZXS.ttf in Resources */,
+				5B8203C925C28A7800066778 /* HYShangWeiShouShuW.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1F6CAC25C3C19A00621985 /* bookDDetail.swift in Sources */,
+				5B1F6CB125C3E09C00621985 /* passageIcon.swift in Sources */,
+				5B9FC91A25C2FCBC0098AAC8 /* Vibration.swift in Sources */,
+				5B8203BB25C2827700066778 /* settingpage.swift in Sources */,
+				5B1F6CA225C3B05A00621985 /* bookData.swift in Sources */,
 				5BE3544925BF081000C96C31 /* ContentView.swift in Sources */,
 				5BE3544725BF081000C96C31 /* IntroApp.swift in Sources */,
+				5B8203B625C2780600066778 /* firstTap.swift in Sources */,
+				5BE3D96625C124C8003973AD /* SwiftUIView.swift in Sources */,
+				5B1F6CA725C3B74300621985 /* firstTap-2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Intro/Preview Content\"";
 				DEVELOPMENT_TEAM = TP2PS75AM9;
@@ -427,8 +493,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = site.cyang.Intro;
+				PRODUCT_BUNDLE_IDENTIFIER = site.cyang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Intro/Intro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Intro/Preview Content\"";
 				DEVELOPMENT_TEAM = TP2PS75AM9;
@@ -449,8 +518,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = site.cyang.Intro;
+				PRODUCT_BUNDLE_IDENTIFIER = site.cyang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Intro/Intro-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +531,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TP2PS75AM9;
 				INFOPLIST_FILE = IntroTests/Info.plist;
@@ -472,6 +543,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = site.cyang.IntroTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Intro/IntroTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intro.app/Intro";
@@ -483,6 +556,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TP2PS75AM9;
 				INFOPLIST_FILE = IntroTests/Info.plist;
@@ -494,6 +568,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = site.cyang.IntroTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Intro/IntroTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intro.app/Intro";
@@ -504,6 +579,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TP2PS75AM9;
 				INFOPLIST_FILE = IntroUITests/Info.plist;
@@ -514,6 +590,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = site.cyang.IntroUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Intro/IntroUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Intro;
@@ -524,6 +602,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TP2PS75AM9;
 				INFOPLIST_FILE = IntroUITests/Info.plist;
@@ -534,6 +613,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = site.cyang.IntroUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Intro/IntroUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Intro;
