@@ -9,7 +9,8 @@ import SwiftUI
 
 struct settingpage: View {
     @State var showSettingModal = false
-    @State var colorPicker = 0
+    //@AppStorage("darkMode") var colorPicker = 0
+    @Binding var colorPicker: Int
     var colorPickerOptions = ["跟随系统", "浅色", "深色"]
     
     
@@ -18,7 +19,18 @@ struct settingpage: View {
             Form {
                 Section(header: Text("应用设置")){
                     Text("1.")
-                    Text("2.")
+                    VStack(alignment:.leading){
+                        Text(" 颜色模式")
+                        Picker("颜色模式", selection: $colorPicker) {
+                                ForEach(0..<colorPickerOptions.count) { index in
+                                    Text(colorPickerOptions[index]).tag(index)
+                                }
+                            
+                            }.pickerStyle(SegmentedPickerStyle())
+                    }.padding(.bottom)
+                    .padding(.top)
+                    
+                    
                     Text("3.")
                     Text("4.")
                 }
@@ -69,6 +81,7 @@ struct settingpage: View {
             
             
             .navigationBarTitle("设置",displayMode:.automatic)
+            
         }
         
         
@@ -78,6 +91,6 @@ struct settingpage: View {
 
 struct settingpage_Previews: PreviewProvider {
     static var previews: some View {
-        settingpage()
+        settingpage(colorPicker: .constant(1))
     }
 }

@@ -9,7 +9,9 @@ import SwiftUI
 import MapKit
 
 struct ContentView: View {
-    
+    //@AppStorage("darkMode") var colorNow = UITraitCollection.current.userInterfaceStyle
+    @Environment(\.colorScheme) var colorNow
+    @AppStorage("darkMode") var colorPicker:Int = 0
     
     var body: some View{
         
@@ -36,13 +38,15 @@ struct ContentView: View {
                         
                 }
             
-            settingpage()
+            settingpage(colorPicker:$colorPicker)
                 .tabItem {
                     Image(systemName: "slider.horizontal.3")
                     Text("Settings")
                         
                 }
-        }
+        }.preferredColorScheme(colorPicker==0 ? nil : colorPicker==1 ? .light : .dark)
+        
+        
     }
     
 }
