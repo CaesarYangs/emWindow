@@ -94,3 +94,5 @@ struct settingpage_Previews: PreviewProvider {
         settingpage(colorPicker: .constant(1))
     }
 }
+
+//
