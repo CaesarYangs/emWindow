@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct settingpage: View {
+    @StateObject var noteData = TabNoteData()
+    @State var showAlert = false
     @State var toggleValue1 = false
     @State var toggleValue2 = false
     @State var toggleValue3 = false
@@ -42,7 +44,22 @@ struct settingpage: View {
                     Toggle("Face ID保护",isOn:$toggleValue3)
                         .toggleStyle(SwitchToggleStyle(tint: .accentColor))
                     
-                    
+                    Button(action: {
+                            Vibration.heavy.virbrate()
+                        if noteData.remove(){
+                            showAlert.toggle()
+                        }}, label: {
+                        Text("清空书籍数据")
+                            
+                            //.bold()
+                    })
+                    .alert(isPresented: $showAlert) {
+                            Alert(title: Text("删除"), message: Text("删除操作已完成 重启应用以继续"),
+                                  dismissButton:.default(Text("好的"),action: {
+                                    exit(1)
+                                  })
+                           
+                    )}
                     
                     
                 }

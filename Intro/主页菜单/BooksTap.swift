@@ -8,21 +8,59 @@
 import SwiftUI
 
 struct BooksTap: View {
-    @StateObject var noteData = bookContentData()
+    @StateObject var noteData = TabNoteData()
     @State var showModal = false
+    
     var body: some View {
+        
         NavigationView{
-            ScrollView() {
-                List(noteData.books){ note in
-                    VStack{
-                        Text(note.name)
-                            .font(.title)
-                        Text(note.content)
-                    }.padding()  
+            
+                List {
+                    ForEach(noteData.notes) { note in
+                        NavigationLink(destination: bookDetailPage()){
+                        /*GroupBox(label: HStack{
+                            //foregroundColor(.blue)
+                            Image(systemName: "bookmark")
+                            Text(note.title)
+                            
+                        }){
+                            Text(note.content)
+                                .lineLimit(2)
+                                .padding()
+                                
+                            //Text(note.writer)
+                            //Text(note.date)
+                        }
+                        
+                        .padding()*/
+                        VStack(alignment:.leading){
+                            HStack {
+                                Image(systemName: "bookmark")
+                                Text(note.title)
+                                    .bold()
+                                    .font(.title2)
+                            }
+                            Text(note.content)
+                                .lineLimit(2)
+                                .padding()
+                        }
+                        
+                        .listStyle(InsetGroupedListStyle())
+                        
+                        }
+                    
                 }
-                
-            }
-            .navigationBarTitle("Hello",displayMode:.automatic)
+                    .onDelete(perform: delete)
+                    
+                }
+            
+            
+            
+               
+                //.listStyle(InsetGroupedListStyle())
+            
+            // 读取现有笔记
+            .navigationBarTitle("书籍列表",displayMode:.automatic)
             .toolbar(content: {
                 Button(action:{
                     showModal.toggle()
@@ -33,10 +71,22 @@ struct BooksTap: View {
                 }.sheet(isPresented: $showModal) {
                     addBook(noteData: noteData, showModal: $showModal)
                 }
+                
             })
         }
+        
+        
+        }
+        
+
+    func delete(at offsets: IndexSet) {
+        noteData.notes.remove(atOffsets: offsets)
+        noteData.saveNotes()
     }
+
 }
+
+
 
 struct BooksTap_Previews: PreviewProvider {
     static var previews: some View {
