@@ -27,6 +27,9 @@
 		5BE3545925BF081100C96C31 /* IntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3545825BF081100C96C31 /* IntroTests.swift */; };
 		5BE3546425BF081100C96C31 /* IntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3546325BF081100C96C31 /* IntroUITests.swift */; };
 		5BE3D96625C124C8003973AD /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D96525C124C8003973AD /* SwiftUIView.swift */; };
+		5BE7768125D105B900EB8874 /* BooksTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE7768025D105B900EB8874 /* BooksTap.swift */; };
+		5BE7768625D1084D00EB8874 /* addBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE7768525D1084D00EB8874 /* addBook.swift */; };
+		5BF7606825D0FF4300F3F915 /* bookContentFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7606725D0FF4300F3F915 /* bookContentFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		5BE3546325BF081100C96C31 /* IntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroUITests.swift; sourceTree = "<group>"; };
 		5BE3546525BF081100C96C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BE3D96525C124C8003973AD /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		5BE7768025D105B900EB8874 /* BooksTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTap.swift; sourceTree = "<group>"; };
+		5BE7768525D1084D00EB8874 /* addBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addBook.swift; sourceTree = "<group>"; };
+		5BF7606725D0FF4300F3F915 /* bookContentFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookContentFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 				5B8203B525C2780600066778 /* firstTap.swift */,
 				5B1F6CA625C3B74300621985 /* firstTap-2.swift */,
 				5B8203BA25C2827700066778 /* settingpage.swift */,
+				5BE7768025D105B900EB8874 /* BooksTap.swift */,
 			);
 			path = "主页菜单";
 			sourceTree = "<group>";
@@ -139,6 +146,8 @@
 				5BE3544625BF081000C96C31 /* IntroApp.swift */,
 				5B1F6CB525C3E53400621985 /* 主页菜单 */,
 				5B1F6CB025C3E09C00621985 /* passageIcon.swift */,
+				5BE7768525D1084D00EB8874 /* addBook.swift */,
+				5BF7606725D0FF4300F3F915 /* bookContentFile.swift */,
 				5B1F6CAB25C3C19A00621985 /* bookDDetail.swift */,
 				5B1F6CA125C3B05A00621985 /* bookData.swift */,
 				5B9FC91925C2FCBC0098AAC8 /* Vibration.swift */,
@@ -321,8 +330,11 @@
 				5B9FC91A25C2FCBC0098AAC8 /* Vibration.swift in Sources */,
 				5B8203BB25C2827700066778 /* settingpage.swift in Sources */,
 				5B1F6CA225C3B05A00621985 /* bookData.swift in Sources */,
+				5BF7606825D0FF4300F3F915 /* bookContentFile.swift in Sources */,
 				5BE3544925BF081000C96C31 /* ContentView.swift in Sources */,
+				5BE7768625D1084D00EB8874 /* addBook.swift in Sources */,
 				5BE3544725BF081000C96C31 /* IntroApp.swift in Sources */,
+				5BE7768125D105B900EB8874 /* BooksTap.swift in Sources */,
 				5B8203B625C2780600066778 /* firstTap.swift in Sources */,
 				5BE3D96625C124C8003973AD /* SwiftUIView.swift in Sources */,
 				5B1F6CA725C3B74300621985 /* firstTap-2.swift in Sources */,
