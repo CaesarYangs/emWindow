@@ -25,7 +25,8 @@ struct ContentView: View {
                         
                 }
             
-            firstTap()
+            //Text("3.电影")
+            BooksTap()
                 .tabItem {
                     Image(systemName: "book")
                     Text("Books")

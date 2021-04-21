@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct settingpage: View {
+    @StateObject var noteData = TabNoteData()
+    @State var showAlert = false
+    @State var toggleValue1 = false
+    @State var toggleValue2 = false
+    @State var toggleValue3 = false
+    
     @State var showSettingModal = false
     //@AppStorage("darkMode") var colorPicker = 0
     @Binding var colorPicker: Int
@@ -18,7 +24,6 @@ struct settingpage: View {
         NavigationView{
             Form {
                 Section(header: Text("应用设置")){
-                    Text("1.")
                     VStack(alignment:.leading){
                         Text(" 颜色模式")
                         Picker("颜色模式", selection: $colorPicker) {
@@ -30,9 +35,33 @@ struct settingpage: View {
                     }.padding(.bottom)
                     .padding(.top)
                     
+                    Toggle("系统通知",isOn:$toggleValue1)
+                        .toggleStyle(SwitchToggleStyle(tint: .accentColor))
                     
-                    Text("3.")
-                    Text("4.")
+                    Toggle("启用iCloud",isOn:$toggleValue2)
+                        .toggleStyle(SwitchToggleStyle(tint: .accentColor))
+                    
+                    Toggle("Face ID保护",isOn:$toggleValue3)
+                        .toggleStyle(SwitchToggleStyle(tint: .accentColor))
+                    
+                    Button(action: {
+                            Vibration.heavy.virbrate()
+                        if noteData.remove(){
+                            showAlert.toggle()
+                        }}, label: {
+                        Text("清空书籍数据")
+                            
+                            //.bold()
+                    })
+                    .alert(isPresented: $showAlert) {
+                            Alert(title: Text("删除"), message: Text("删除操作已完成 重启应用以继续"),
+                                  dismissButton:.default(Text("好的"),action: {
+                                    exit(1)
+                                  })
+                           
+                    )}
+                    
+                    
                 }
                 
                 Section(header: Text("帮助与反馈")){
@@ -57,9 +86,13 @@ struct settingpage: View {
                             .foregroundColor(.accentColor)
                     })
                     .sheet(isPresented: $showSettingModal, content: {
-                        Text("Developed by YYQ")
+                        Text("Developed by")
+                            .font(.footnote)
+                        Text("Caesar Yang & Olivia Yao")
                             .font(.headline)
+                            .shadow(radius: 1)
                         Text("2021")
+                            .font(.footnote)
                     })
                     
                     
