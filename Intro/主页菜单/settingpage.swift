@@ -98,6 +98,7 @@ struct settingpage: View {
                     
                     
                     
+                    
                     Button(action: {
                             Vibration.selection.virbrate()
                             showSettingModal.toggle()}, label: {
