@@ -86,9 +86,13 @@ struct settingpage: View {
                             .foregroundColor(.accentColor)
                     })
                     .sheet(isPresented: $showSettingModal, content: {
-                        Text("Developed by YYQ")
+                        Text("Developed by")
+                            .font(.footnote)
+                        Text("Caesar Yang & Olivia Yao")
                             .font(.headline)
+                            .shadow(radius: 1)
                         Text("2021")
+                            .font(.footnote)
                     })
                     
                     
