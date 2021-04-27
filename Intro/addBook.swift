@@ -121,10 +121,10 @@ struct addBook: View {
     }
 }
        
-
+/*
 struct addBook_Previews: PreviewProvider {
   static var previews: some View {
     addBook(noteData: .init(),showModal: .constant(true))
     }
 }
-    
+*/
