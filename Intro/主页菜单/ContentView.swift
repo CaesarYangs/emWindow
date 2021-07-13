@@ -10,7 +10,8 @@ import MapKit
 
 struct ContentView: View {
     //@AppStorage("darkMode") var colorNow = UITraitCollection.current.userInterfaceStyle
-    @Environment(\.colorScheme) var colorNow
+    @Environment(\.colorScheme) var colorSchemeNow
+    
     @AppStorage("darkMode") var colorPicker:Int = 0
     
     var body: some View{

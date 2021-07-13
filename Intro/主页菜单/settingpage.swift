@@ -7,18 +7,22 @@
 
 import SwiftUI
 
+
+
+
+
 struct settingpage: View {
     @StateObject var noteData = TabNoteData()
     @State var showAlert = false
     @State var toggleValue1 = false
     @State var toggleValue2 = false
     @State var toggleValue3 = false
-    
+   
     @State var showSettingModal = false
-    //@AppStorage("darkMode") var colorPicker = 0
     @Binding var colorPicker: Int
     var colorPickerOptions = ["跟随系统", "浅色", "深色"]
     
+   
     
     var body: some View {
         NavigationView{
@@ -65,8 +69,11 @@ struct settingpage: View {
                 }
                 
                 Section(header: Text("帮助与反馈")){
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Button(action: {
+                       
+                    }, label: {
                         Text("帮助指南")
+                        
                             //.bold()
                     })
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
@@ -88,7 +95,7 @@ struct settingpage: View {
                     .sheet(isPresented: $showSettingModal, content: {
                         Text("Developed by")
                             .font(.footnote)
-                        Text("Caesar Yang & Olivia Yao")
+                        Text("Caesar Yang")
                             .font(.headline)
                             .shadow(radius: 1)
                         Text("2021")

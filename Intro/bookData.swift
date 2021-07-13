@@ -18,13 +18,13 @@ class bookData: ObservableObject{
     @Published var articles = [Article]()
     
     init(){
-        let url = URL(string:"http://118.31.60.105:8888/down/suf8KqM0Uibc")!
+        /*let url = URL(string:"http://panel.cyang.site:8888/down/yE9I1D3tM8U0")!
         
         URLSession.shared.dataTask(with:url) { (data,responce,error) in
             DispatchQueue.main.async {
                 self.articles = try! JSONDecoder().decode([Article].self, from: data!)
             }
         }.resume()
-        
+        */
     }
 }
